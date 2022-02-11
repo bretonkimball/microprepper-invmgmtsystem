@@ -42,9 +42,9 @@ function getShelteringResults() {
             document.write("You need approximately", neededGallonsGas, "gallons of gas for a standard 2000w Honda inverter generator.")
         };
 
-        enoughWaterShelter();
-        enoughFoodShelter();
-        additionalSuppliesShelter();
+        document.getElementById("resultsSheltering").innerHTML = enoughWaterShelter();
+        document.getElementById("resultsSheltering").innerHTML = enoughFoodShelter();
+        document.getElementById("resultsSheltering").innerHTML = additionalSuppliesShelter();
 };
 
 //function getEvacuationResults() {
