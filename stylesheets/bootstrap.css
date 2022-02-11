@@ -38,7 +38,7 @@
   --bs-primary: #eb6864;
   --bs-secondary: #aaa;
   --bs-success: #22b24c;
-  --bs-info: #369;
+  --bs-info: rgb(64, 143, 221);
   --bs-warning: #f5e625;
   --bs-danger: #f57a00;
   --bs-light: #f8f9fa;
@@ -496,6 +496,14 @@ progress {
 
 [hidden] {
   display: none !important;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid rgb(0, 0, 0); 
 }
 
 .lead {
@@ -11415,8 +11423,8 @@ fieldset:disabled .btn {
 }
 
 .navbar {
-  font-size: 18px;
-  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
 }
 
@@ -11428,7 +11436,7 @@ fieldset:disabled .btn {
 }
 
 .btn {
-  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
 }
 
