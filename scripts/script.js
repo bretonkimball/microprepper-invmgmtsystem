@@ -1,5 +1,5 @@
 
-
+/*
 var numDays;
 var numHours;
 var numPeople;
@@ -52,4 +52,16 @@ function hurricane_shelter() {
         print("You need approximately", neededGallonsGas,
               "gallons of gas for a standard 2000w Honda inverter generator.")
     }
+}
+*/
+
+function getShelteringResults() {
+    var numPeopleSheltering = parseInt(document.getElementById("numPeopleShelteringLabel").value);
+    var numDaysSheltering = parseInt(document.getElementById("numDaysShelteringLabel").value);
+    var numGallonsWaterSheltering = parseInt(documents.getElementById("numGallonsWaterShelteringLable").value)
+
+}
+
+function getEvacuationResults() {
+
 }
